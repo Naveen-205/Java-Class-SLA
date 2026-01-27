@@ -9,7 +9,7 @@ public class ThreadImplementation {
 			final int threadNumber = i;
 			//thread created
 			Thread t = new Thread(()->{
-				System.out.println("Thread " + threadNumber + " is running");
+				System.out.println("Thread is running " + threadNumber + " is running");
 			});
 			
 			t.start(); //thread start
