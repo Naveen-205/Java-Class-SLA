@@ -1,5 +1,6 @@
 package practice;
 
+//custom exception
 class InvalidMarksException extends Exception
 {
 	InvalidMarksException(String msg)
